@@ -1,6 +1,20 @@
+import Card from "./components/Card/Card"
+import Contador from "./components/Contador/Contador"
+import Task from "./components/Task/Task"
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      {/* <Card titulo="React" descricao= "Biblioteca com JS" />
+
+      <Card titulo="Spring" descricao= "Framework de Java" /> */
+      
+      }
+      
+    {/* <Contador /> */}
+
+    <Task />
+    </>
   )
 }
 
